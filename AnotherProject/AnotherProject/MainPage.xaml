@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnotherProject.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="Change"
+                SemanticProperties.Hint="change the bad words I put there"
+                Text="Hola mundo"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+                
+            <Button
+                x:Name="RequestingAPIs"
+                Text="Get Data from APIs"
+                Clicked="OnRequestingAPIs"
+                HorizontalOptions="Center"/>
+            
+            <Button
+                x:Name="ParallelFunction"
+                Text="My (invoke/print) Parallel Function"
+                Clicked="OnPrintParallel"
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="networking"
+                Text="Request my server"
+                Clicked="OnNetworkClicked"
+                HorizontalOptions="Center"/>
+
+            <Button
+                x:Name="ShowPokemons"
+                Text="Show Pokemons"
+                Clicked="OnShowPokemon"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="IDValue"
+                Placeholder="ID Input"
+                Text=""
+                HorizontalTextAlignment="Center" />
+
+            <ProgressBar
+                Progress="0.0"
+                ProgressColor="Orange"
+                x:Name="PBar" />
+
+            <ListView x:Name="PokemonList"
+                ItemsSource="{Binding Pokemones}"
+                VerticalOptions="FillAndExpand" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5">
+                                <Frame BackgroundColor="#4CAF50" HasShadow="True"
+                                    BorderColor="White" CornerRadius="5">
+                                    <Grid>
+                                        <!-- Image and Name -->
+                                        <Label Grid.ColumnSpan="2"
+                                            Text="{Binding name}"
+                                            FontAttributes="Bold"
+                                            LineBreakMode="WordWrap" />
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="200" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.Grid.ColumnDefinitions>
+                                            <Image Source="{Binding spriteFront}"
+                                                Grid.Row="1"
+                                                Grid.Column="0"></Image>
+                                            <Image Source="{Binding spriteBack}"
+                                                Grid.Row="1"
+                                                Grid.Column="1"></Image>
+                                        </Grid>
+                                    </Grid>
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Grid
+                x:Name="Pagination"
+                IsVisible="false" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid.Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.Grid.ColumnDefinitions>
+
+                <Button
+                    x:Name="PreviousPage"
+                    Text="Prev Page"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    Clicked="OnPreviousPage" />
+
+                <Label
+                    x:Name="Pages"
+                    Text="Pages"
+                    FontSize="20.0"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    Grid.Column="1" />
+
+                <Button
+                    x:Name="NextPage"
+                    Text="Next Page"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    Clicked="OnNextPage" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

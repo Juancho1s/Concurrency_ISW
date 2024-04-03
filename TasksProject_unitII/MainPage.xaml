@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TasksProject_unitII.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center"
+                IsVisible="false" />
+
+            <Button
+                x:Name="getAllData"
+                Text="Get all numbers"
+                Clicked="onGettingAllNumbers"
+                HorizontalOptions="Center"
+                IsVisible="false" />
+
+            <Button
+                x:Name="deleteAllData"
+                Text="Delete all numbers"
+                Clicked="onDeletingAllNumbers"
+                HorizontalOptions="Center"
+                IsVisible="false" />
+
+            <Button
+                x:Name="getNumbers"
+                Text="Getting 10000 Numbers"
+                Clicked="onGetting10000Numbers"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="sorting"
+                Text="Sorting all numbers"
+                Clicked="onSorting10000Numbers"
+                HorizontalOptions="Center" />
+
+            <ProgressBar
+                ProgressColor="Orange"
+                x:Name="PBar"
+                Progress="{Binding Counter}"
+                IsVisible="false" />
+            
+            <Button
+                x:Name="stoping"
+                Text="Stop Sorting"
+                Clicked="onStopSorting"
+                HorizontalOptions="Center"
+                IsVisible="false" />
+
+            <ListView x:Name="RandomNumbers"
+                ItemsSource="{Binding allRecords}"
+                VerticalOptions="FillAndExpand" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="2" >
+                                <Frame BackgroundColor="#4CAF50" HasShadow="True"
+                                    BorderColor="White" CornerRadius="5" >
+                                    <Label Text="{Binding myRandomNumber}"
+                                        FontAttributes="Bold"
+                                        LineBreakMode="WordWrap"
+                                        HorizontalOptions="Center" />
+                                </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+</ContentPage>
