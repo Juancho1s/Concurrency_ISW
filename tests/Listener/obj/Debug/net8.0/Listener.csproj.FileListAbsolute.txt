@@ -1,0 +1,15 @@
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\bin\Debug\net8.0\Listener.exe
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\bin\Debug\net8.0\Listener.deps.json
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\bin\Debug\net8.0\Listener.runtimeconfig.json
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\bin\Debug\net8.0\Listener.dll
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\bin\Debug\net8.0\Listener.pdb
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.AssemblyInfoInputs.cache
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.AssemblyInfo.cs
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.csproj.CoreCompileInputs.cache
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.sourcelink.json
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.dll
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\refint\Listener.dll
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.pdb
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\Listener.genruntimeconfig.cache
+C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\tests\Listener\obj\Debug\net8.0\ref\Listener.dll

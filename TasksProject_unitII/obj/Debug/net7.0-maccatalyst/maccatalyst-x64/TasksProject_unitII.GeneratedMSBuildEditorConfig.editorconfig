@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -8,39 +12,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TasksProject_unitII
-build_property.ProjectDir = C:\Users\G3_3590\Escritorio\universidad\7th Cuatrimestre\Concurrency\code\MAUI\TasksProject_unitII\
+build_property.ProjectDir = C:\Users\POERT\Desktop\Universidad\7th cuater\Concurrency\Concurrency_ISW\TasksProject_unitII\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/App.xaml]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/AppShell.xaml]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/MainPage.xaml]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/Resources/Styles/Colors.xaml]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/Resources/Styles/Styles.xaml]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/G3_3590/Escritorio/universidad/7th Cuatrimestre/Concurrency/code/MAUI/TasksProject_unitII/doc/doc-style.css]
+[C:/Users/POERT/Desktop/Universidad/7th cuater/Concurrency/Concurrency_ISW/TasksProject_unitII/doc/doc-style.css]
 build_metadata.AdditionalFiles.GenKind = Css
 build_metadata.AdditionalFiles.ManifestResourceName = TasksProject_unitII.doc.doc-style.css
 build_metadata.AdditionalFiles.TargetPath = doc\doc-style.css

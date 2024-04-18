@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalProject.MainPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0"
+                             Spacing="25">
+            <Image Source="dotnet_bot.png"
+                   HeightRequest="185"
+                   Aspect="AspectFit"
+                   SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Label Text="Hello, World!"
+                   Style="{StaticResource Headline}"
+                   SemanticProperties.HeadingLevel="Level1"
+                   IsVisible="False" />
+            <Label Text="Welcome to &#xA;.NET Multi-platform App UI"
+                   Style="{StaticResource SubHeadline}"
+                   SemanticProperties.HeadingLevel="Level2"
+                   SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                   IsVisible="False" />
+            <Button x:Name="CounterBtn"
+                    Text="Click me"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center"
+                    IsVisible="False" />
+
+
+            <!-- Create an input for the user -->
+            <Entry Placeholder="Enter the API url here"
+                   x:Name="URL1"
+                   IsVisible="True" />
+
+            <ProgressBar ProgressColor="Orange"
+                         x:Name="PBar1"
+                         Progress="{Binding Counter1}"
+                         IsVisible="True" />
+
+            <Entry Placeholder="Enter the API url here"
+                   x:Name="URL2"
+                   IsVisible="True" />
+
+            <ProgressBar ProgressColor="Orange"
+                         x:Name="PBar2"
+                         Progress="{Binding Counter2}"
+                         IsVisible="True" />
+
+            <Entry Placeholder="Enter the API url here"
+                   x:Name="URL3"
+                   IsVisible="True" />
+
+            <ProgressBar ProgressColor="Orange"
+                         x:Name="PBar3"
+                         Progress="{Binding Counter3}"
+                         IsVisible="True" />
+
+            <Button x:Name="ObtainResources"
+                    Text="Obtain resources"
+                    Clicked="OnGettingResources"
+                    HorizontalOptions="Center"
+                    IsVisible="True" />
+
+              <Button x:Name="SendingAllData"
+                    Text="Send all data"
+                    Clicked="OnSendingAllData"
+                    HorizontalOptions="Center"
+                    IsVisible="True" />
+
+              <Button x:Name="CancelSending"
+                    Text="Cancel Sending"
+                    Clicked="OnCancelSending"
+                    HorizontalOptions="Center"
+                    IsVisible="True" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
